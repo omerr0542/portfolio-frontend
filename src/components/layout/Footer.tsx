@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Socials */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/"
+              href="https://github.com/omerr0542"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 transition-all duration-200 hover:-translate-y-1 hover:text-white"
@@ -32,7 +32,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://linkedin.com/in/omerr589/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 transition-all duration-200 hover:-translate-y-1 hover:text-white"
@@ -42,7 +42,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:example@mail.com"
+              href="mailto:o.faruk0542@gmail.com"
               className="text-gray-400 transition-all duration-200 hover:-translate-y-1 hover:text-white"
               aria-label="Email"
             >

@@ -68,9 +68,9 @@ export default function Hero({ profile }: Props) {
 
         {/* Social icons (şimdilik statik) */}
         <div className="flex items-center justify-center gap-6">
-          <Github size={22} className="text-gray-400" />
-          <Linkedin size={22} className="text-gray-400" />
-          <Mail size={22} className="text-gray-400" />
+          <a href='https://github.com/omerr0542'><Github size={22} className="text-gray-400" /></a> 
+          <a href='https://linkedin.com/in/omerr589/'><Linkedin size={22} className="text-gray-400" /></a> 
+          <a href='mailto:o.faruk0542@gmail.com'><Mail size={22} className="text-gray-400" /></a> 
         </div>
       </div>
     </section>
