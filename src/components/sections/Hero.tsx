@@ -33,9 +33,7 @@ export default function Hero({ profile }: Props) {
 
         {/* Name */}
         <h1 className="mb-6 text-6xl md:text-7xl font-light tracking-tight leading-tight">
-          {profile.fullName.split(' ').slice(0, -1).join(' ')}
-          <br />
-          {profile.fullName.split(' ').slice(-1)}
+          {profile.fullName}
         </h1>
 
         {/* Title */}
