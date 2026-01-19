@@ -11,6 +11,22 @@ import Skills from '@/components/sections/Skills'
 import { getProfile } from '@/services/api'
 import { ProfileDto } from '@/types/ProfileDto'
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Ömer Faruk Yılmaz | Full Stack Developer',
+  description:
+    'Ömer Faruk Yılmaz personal portfolio: .NET, Next.js, SQL, DevExpress, EDI/ASN, and enterprise automation projects.',
+  openGraph: {
+    type: 'website',
+    url: 'https://omerfarukyilmaz.com/',
+    title: 'Ömer Faruk Yılmaz | Full Stack Developer',
+    description:
+      'Portfolio: .NET, Next.js, SQL, DevExpress, EDI/ASN, and enterprise automation projects.',
+  },
+}
+
+
 export default async function HomePage() {
   let profile: ProfileDto | null = null
 

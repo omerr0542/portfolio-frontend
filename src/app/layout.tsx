@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   publisher: 'Ömer Faruk Yılmaz',
 
   alternates: {
-    canonical: 'https://omerfarukyilmaz.com',
+    canonical: '/',
   },
 
   robots: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     url: 'https://omerfarukyilmaz.com',
     siteName: 'Ömer Faruk Yılmaz',
     locale: 'tr_TR',
-    type: 'profile',
+    type: 'website',
   },
 
   twitter: {
